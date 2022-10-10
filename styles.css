@@ -1,0 +1,126 @@
+* {
+    font-family: 'roboto', sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.titulo {
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+.titulo-random-michis {
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.random-michis {
+    display: grid;
+    align-items: center;
+    
+}
+.michis-grid{
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,350px);
+}
+
+.michis-grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*quiero q se vea toda la imagen*/
+}
+
+.info-button {
+    
+    margin-top: 20px;
+    border: 2px solid #1A9AF7;
+    background-color: #FAF8F7;
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 14px 11px 20px 5px rgba(0,0,0,0.64);
+    text-align: center;
+}
+.info-button-:hover {
+    background-color: #97e9ff;
+    color: black;
+}
+
+.titulo-michis-favoritos {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.recarga {
+    text-align: center;
+    margin-top: 100px;
+}
+.info-button-recarga {
+    margin-top: 30px;
+    background-color: #1A9AF7;
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: white;
+    border: none;
+    width: 120px;
+    padding: 6px;
+    cursor: pointer;
+    outline: none;
+}
+.info-button-recarga:hover {
+    background-color: #97e9ff;
+    color: black;
+}
+
+
+.michis-grid2{
+    display: grid;
+    gap: 120px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,300px);
+    
+}
+
+.titulo-michis-favoritosSubidos {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.subirMichi {
+    margin-top: 30px;
+    background-color: #7f00b2;
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: white;
+    border: none;
+    width: 220px;
+    padding: 6px;
+    cursor: pointer;
+    outline: none;
+}
+.subirMichi:hover {
+    background-color: #ab3ed8;
+}
+
